@@ -75,6 +75,15 @@ article p {
 	font-size: 1em;
 	line-height: 1.4em;
 }
+#main > label:first-of-type {
+	position: absolute;
+	top: 17em;
+	left:20em;
+	background-color: white;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+}
 article em {
 	font-size: 1.3em;
 	font-style: italic;
