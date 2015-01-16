@@ -21,7 +21,8 @@ nav a:visited {
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #dfdfdf;
+	/*background-color: #dfdfdf;*/
+	background-color: blue;
 }
 header p > a:hover {
 	text-decoration: underline;
