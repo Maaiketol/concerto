@@ -1,0 +1,51 @@
+a.selected {
+  background-color:#1F75CC;
+  color:white;
+  z-index:100;
+}
+.messagepop a {
+  margin-left: 3em;
+}
+
+.messagepop {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  cursor:default;
+  display:none;
+  margin-top: -138.5px;
+  margin-left: -223px;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  text-align:left;
+  width:394px;
+  z-index:50;
+  padding: 25px 25px 20px;
+  border-radius: 3px;
+
+  -webkit-box-shadow: 0px 0px 200px 50px rgba(0,0,0,0.50);
+  -moz-box-shadow: 0px 0px 200px 50px rgba(0,0,0,0.50);
+  box-shadow: 0px 0px 200px 50px rgba(0,0,0,0.50);
+}
+
+.messagepop.pop {
+  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+input[type="text"] {
+  
+}
+textarea {
+
+}
+
+.messagepop p, .messagepop.div {
+  margin: 8px 0;
+  padding-bottom: 8px;
+}
