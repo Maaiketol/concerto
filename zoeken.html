@@ -8,6 +8,10 @@
 		<meta name="description" content="Muziekwinkel" />
     	<meta name="author" content="Jarno Verhoogt" />
     	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+		<!-- shiny knob css -->
+    	<link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="stylesheet" href="assets/knobKnob/knobKnob.css" />
 	</head>
 	<body>
 		<header>
@@ -28,20 +32,13 @@
 				<fieldset>
 					<h2>Music the Generator</h2>
 
-					<label for="#">Hoe voel je je?</label>
-					<input type="text" id="#" />
-
-					<label for="#">Op de schaal van 1 tot 10: hoe cool ben jij?</label>
-					<input type="range" min="10" max="1000" step="10" value="300">
-
-					<label for="background-color">Wat is je favoriete kleur?</label> 
-					<input id="background-color" type="color" />
-
-					<label for="lengtestage">Ben je een hardgekookt ei of een gevulde koek?</label>
-			    	<select id="lengtestage">
-			    	    <option>Hardgekookt ei</option>
-			    	    <option>Gevulde koek</option>
-			    	</select>
+					<section id="main">
+			
+						<div id="bars">
+							<div id="control"></div>
+						</div>
+						
+					</section>
 
 					<label>Ik hou van gokken:</label>
 					<input type="radio" name="resultaten" value="resultaten 1"/>
@@ -175,5 +172,12 @@
 		<script src="js/script.js"></script>
 		<script src="js/inloggen.js"></script>
 		<script src="js/jquery-1.11.1.js"></script>
+
+
+		<!-- shiny knob scripts -->
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="assets/knobKnob/transform.js"></script>
+		<script src="assets/knobKnob/knobKnob.jquery.js"></script>
+		<script src="assets/js/script.js"></script>
 	</body>
 </html>
