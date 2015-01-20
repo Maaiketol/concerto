@@ -23,6 +23,18 @@
 	border: 1px solid #cccccc;
 }
 
+#labels {
+	overflow: auto; 
+	margin-top: 2em;
+	margin-bottom: 2em;
+	background-color: gray;
+	padding-top: 2.5em;
+	border-radius: 3px;
+	background-color: #dfdfdf;
+	border: 1px solid #cccccc;
+}
+
+
 #bars{
 	height: 212px;
 	margin: 0 auto;
