@@ -23,6 +23,9 @@ body > section {
 	background-image: url('../afb/concerto_back.jpg');
 	width: 100%;
 	height: 200px;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 header {
@@ -41,18 +44,18 @@ header {
 
 header > h1 {
 	position: absolute;
-	margin: 0;
-	top: 0.5em;
     left: 2.15em;
     z-index: 1;
-    color: #6844FF;
+    color: #FC626C;
 }
+
 header > nav {
 	position: absolute;
-	top: 1.6em;
+	padding-top: 1.6em;
     left: 29em;
     z-index: 1;
 }
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -70,20 +73,10 @@ nav li > a {
 	border-radius: 3px;
 }
 nav li > a:hover {
-	border: solid 1px blue;
-	background-color: #6844FF;
+	background-color: #a5a5a3;
 	color: white;
 }	
-header {
-	position: fixed;
-	width: 100%;
-	height: 4.5em;
-	margin: 0;
-	padding: 0;
-	background-color: white;
-	border-bottom: solid 1px #cccccc;
-	-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
-}
+
 main {
 	padding-top: 9em;
 	display: flex;
@@ -109,7 +102,7 @@ blockquote {
 	padding: 0.4em;
 	border-left: 1px solid #665544;
 	padding-left: 1em;
-	color: #9F22CC;
+	color: #83DF00;
 }
 article em {
 	width: 18em;
@@ -135,10 +128,10 @@ article {
 	border-radius: 3px;
 }
 article > p > a:visited {
-	color: #9F22CC;
+	color: #83DF00;
 }
 article > p > a {
-	color: #9F22CC;
+	color: #83DF00;
 }
 
 article > img {
@@ -204,10 +197,10 @@ footer {
 	text-align: center;	
 }
 footer a {
-	color: #9F22CC;
+	color: #83DF00;
 }
 footer a:visited {
-	color: #9F22CC;
+	color: #83DF00;
 }
 footer a:hover {
 	text-decoration: underline;

@@ -8,7 +8,7 @@
 	background-color: gray;
 	padding-top: 2.5em;
 	border-radius: 3px;
-	background-color: #dfdfdf;
+	background-color: white;
 	border: 1px solid #cccccc;
 }
 
@@ -19,7 +19,7 @@
 	background-color: gray;
 	padding-top: 2.5em;
 	border-radius: 3px;
-	background-color: #dfdfdf;
+	background-color: white;
 	border: 1px solid #cccccc;
 }
 
@@ -30,7 +30,7 @@
 	background-color: gray;
 	padding-top: 2.5em;
 	border-radius: 3px;
-	background-color: #dfdfdf;
+	background-color: white;
 	border: 1px solid #cccccc;
 }
 
@@ -64,4 +64,9 @@
 
 .colorBar.active{
 	opacity:1;
+}
+
+section:nth-of-type(3) input {
+	float: right;
+	margin-right: 57%;
 }

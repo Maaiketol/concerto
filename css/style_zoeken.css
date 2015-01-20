@@ -111,14 +111,14 @@ article p {
 	background-color: white;
 	padding: 5px;
 	border-radius: 3px;
-	border: 1px solid #cccccc;
+	border: 2px solid #cccccc;
 }
 article em {
 	font-size: 1.3em;
 	font-style: italic;
 	font-family: Georgia, Times, serif;
 	line-height: 1.5em;
-	color: #585858;
+	color: #83DF00;
 }
 article > p > a:visited {
 	color: #9F22CC;
@@ -215,7 +215,7 @@ fieldset > section:nth-of-type(2) > label {
 	background-color: white;
 	padding: 5px;
 	border-radius: 3px;
-	border: 1px solid #cccccc;
+	border: 2px solid #cccccc;
 }
 
 fieldset > section:nth-of-type(3) > label {
@@ -224,7 +224,7 @@ fieldset > section:nth-of-type(3) > label {
 	background-color: white;
 	padding: 5px;
 	border-radius: 3px;
-	border: 1px solid #cccccc;
+	border: 2px solid #cccccc;
 }
 
 aside h2 {
@@ -248,10 +248,10 @@ footer {
 	text-align: center;	
 }
 footer a {
-	color: #9F22CC;
+	color: #83DF00;
 }
 footer a:visited {
-	color: #9F22CC;
+	color: #83DF00;
 }
 footer a:hover {
 	text-decoration: underline;
