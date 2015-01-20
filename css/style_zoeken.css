@@ -207,6 +207,9 @@ input[type=range][orient=vertical]
     padding: 0 10px;
 }
 
+#sliders {
+	background-color: red;
+}
 
 fieldset > section:nth-of-type(2) > label {
 	top: 2em;
