@@ -207,11 +207,18 @@ input[type=range][orient=vertical]
     padding: 0 10px;
 }
 
-#sliders {
-	background-color: red;
-}
+
 
 fieldset > section:nth-of-type(2) > label {
+	top: 2em;
+	left: 2em;
+	background-color: white;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+}
+
+fieldset > section:nth-of-type(3) > label {
 	top: 2em;
 	left: 2em;
 	background-color: white;
