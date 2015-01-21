@@ -12,13 +12,13 @@ a.selected {
   border:1px solid #999999;
   cursor:default;
   display:none;
-  margin-top: -138.5px;
-  margin-left: -223px;
+  margin-top: -225px;
+  margin-left: -250px;
   position:fixed;
   top: 35%;
   left: 50%;
   text-align:left;
-  width:394px;
+  width: 500px;
   z-index:50;
   padding: 25px 25px 20px;
   border-radius: 3px;
@@ -31,18 +31,52 @@ a.selected {
 .messagepop.pop {
   display: block;
 }
-
+fieldset {
+  border: none;
+  margin: auto;
+}
 label {
   display: block;
   margin-bottom: 3px;
   padding-left: 15px;
   text-indent: -15px;
+  margin-top: 1.2em;
 }
 input[type="text"] {
-  
+  width: 42em;
+}
+input[type="submit"] {
+  margin-top: 2em;
+  margin-left: 6em;
+
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.4em;
+  border: solid 1px #cccccc;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+}
+input[type="submit"]:hover {
+  background-color: #a5a5a3;
+  color: white;
+}
+fieldset a {
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.4em;
+  border: solid 1px #cccccc;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+}
+fieldset a:hover {
+  background-color: #a5a5a3;
+  color: white;
+}
+fieldset a:visited {
+  color: inherit;
 }
 textarea {
-
+  width: 42em;
 }
 
 .messagepop p, .messagepop.div {
